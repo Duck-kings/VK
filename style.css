@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    background: #11218a;
+    height: 65px;
+    width: 70%;
+    transform: translateX(20%);
+    border-radius: 0 0 18px 18px;
+}
+.logo{
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 9%;
+    left: 8%;
+    font-size: 50px;
+}
+.searchbox{
+    height: 30px;
+    width: 220px;
+    /*border: 2px solid #000;*/
+    position: absolute;
+    left: 375px;
+    top: 25%;
+    display: flex;
+}
+.searchbox .fas{
+    transform: rotateY(180deg);
+    color: #b1b1b3;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+.searchbox input{
+    height: 30px;
+    text-align: right;
+}
+.nav-bar{
+    display: flex;
+    position: absolute;
+    right: 45px;
+    top: 30%;
+    list-style: none;
+}
+.nav-bar a{
+    margin: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.main-page{
+    transform: translateX(20%);
+    border: 1px solid #000;
+    height: 100vh;
+    width: 70%;
+}
+.sidebox{
+    border: 1px solid red;
+    height: 100%;
+    width: 25%;
+}
+.nav-sidebar{
+    height: 35%;
+    width: 100%;
+    list-style: none;
+}
+.nav-sidebar li{
+    width: 100%;
+    height: 11%;
+    margin: 5px;
+    margin-left: 10px;
+}
+.nav-sidebar a{
+    text-decoration: none;
+    color: #11218a;
+    font-size: 19px;
+}
+.main-content{}
